@@ -78,7 +78,7 @@ public class TraineeController {
 		  return new ModelAndView("modify1","trainee",trainee); 
 	}
 	
-	@RequestMapping("/modify1")
+	@RequestMapping("/update")
 	public String updateTrainee1(@ModelAttribute Trainee trainee)
 	{
 	    	   service.updateTrainee(trainee);
